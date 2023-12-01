@@ -1,0 +1,88 @@
+.contenedor-perfil {
+    background-color: rgb(231, 236, 242);
+    border: 1px solid #DAE0E8;
+    width: 800px;
+    height: 800px;
+    display: inline-block;
+}
+
+.profile {
+  margin-top: 70px;
+    height: 600px;
+    background-color: white;
+    width: 500px;
+    display: inline-block;
+    border: 3px solid rgb(226, 230, 235);
+    border-radius: 15px;
+}
+
+.description {
+    text-align: center;
+}
+
+.avatar {
+    margin-top: 70px;
+    background-color: rgb(243, 246, 249);
+    border-radius: 150px;
+    width: 180px;
+}
+
+.name {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.tag {
+    color: lightslategrey;
+    font-size: 20px;
+}
+
+.stats {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 100px;
+    background-color: rgb(243, 246, 249);
+    border-top: 3px solid rgb(226, 230, 235);
+    border-bottom: 3px solid rgb(226, 230, 235);
+  }
+  
+  .li {
+    text-align: center;
+    position: relative;
+  }
+  
+  .li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    height: calc(100% + 95px);
+    width: 2px;
+    background-color: rgb(226, 230, 235);
+    right: calc(33.33% + -60px); /* Ajuste para que la línea llegue hasta el tope del alto de stats */
+    top: -47px;
+  }
+
+  .label {
+    color: lightslategrey;
+    font-size: 20px;
+}
+
+.li::nth-child(2) {
+    margin-left: -50px;
+  }
+  
+  .quantity {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+
+.stats .label, .stats .quantity {
+    display: block;
+  }

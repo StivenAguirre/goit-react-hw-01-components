@@ -1,0 +1,41 @@
+
+
+.statistics {
+    background-color: rgb(231, 236, 242);
+    width: 800px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.upload {
+    color: rgb(106, 110, 114);
+    margin-top: 50px;
+    margin-bottom: 45px;
+    font-size: 30px;
+}
+
+.container {
+    background-color: white;
+    height: 250px;
+    width: 600px;
+    text-align: center;
+}
+
+.stat-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.label {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.percentage {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
