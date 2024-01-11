@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react'
 import styles from "../css/stadistic.module.css"
-import jsonData from "../data.json"
 import { generarColorAleatorio } from 'index'
+import jsonData from "../data.json"
 
 function Stadistics() {
   const data = jsonData
